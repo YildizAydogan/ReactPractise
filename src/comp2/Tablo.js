@@ -33,12 +33,13 @@ const still2= {
     <th>Yas</th>
     <th>Aldigi kurs</th>
 </tr>
+
 </thead>
 
 <tbody>
     {students.map((student, index) =>{
 return (
-    <tr style={index %2==0 ? still1 : still2}
+    <tr style={index %2===0 ? still1 : still2}
     /*  style={{...still1, color: "blue", fontSize:"2rem"}}  */
      key={index}>
        
