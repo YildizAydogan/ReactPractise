@@ -7,6 +7,8 @@ import students from "./assets/data/Students.json"
 import Kisi from "./comp3/Kisi";
 import "./assets/css/style.css"
 import Kurs from "./comp3/Kurs";
+import Cards from "./comp4/Cards";
+import Akis from "./comp4/Akis";
 
 function App() {
  
@@ -17,7 +19,7 @@ function App() {
   <Cders/> 
   
    <Tablo/>
-   <Liste/>*/}
+   <Liste/>
 
    <Kurs/>
    <div className="card">    
@@ -26,6 +28,18 @@ function App() {
           return <Kisi key={index} ad={isim} img={img} yas={yas} kurs={kurs} />;
         })}
       </div>
+
+      <div className="yanyana">    
+        {students.map((student, index) => {
+          const { isim, img, yas, kurs } = student;
+          return <Cards key={index} ad={isim} img={img} yas={yas} kurs={kurs} />;
+        })}
+      </div>*/}
+     <Akis/>
+
+
+
+
 
 
       </div>
