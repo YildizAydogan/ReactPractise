@@ -9,34 +9,39 @@ import "./assets/css/style.css"
 import Kurs from "./comp3/Kurs";
 import Cards from "./comp4/Cards";
 import Akis from "./comp4/Akis";
+import Bilgiler from "./comp5/Bilgiler";
+
+
+
+
+
 
 function App() {
- 
   return (
   <div className="App"> 
- {/*  <Aders/>
-  <Bders/>
-  <Cders/> 
-  
+ {/*<Aders/>
+   <Bders/>
+   <Cders/> 
+   
    <Tablo/>
    <Liste/>
 
    <Kurs/>
-   <div className="card">    
+        <div className="card">    
         {students.map((student, index) => {
           const { isim, img, yas, kurs } = student;
           return <Kisi key={index} ad={isim} img={img} yas={yas} kurs={kurs} />;
         })}
-      </div>
+        </div>
 
-      <div className="yanyana">    
+       <div className="yanyana">    
         {students.map((student, index) => {
           const { isim, img, yas, kurs } = student;
           return <Cards key={index} ad={isim} img={img} yas={yas} kurs={kurs} />;
         })}
-      </div>*/}
-     <Akis/>
-
+        </div>
+       <Akis/>*/}
+      <Bilgiler/>
 
 
 
