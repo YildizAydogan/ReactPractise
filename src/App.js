@@ -10,6 +10,7 @@ import Kurs from "./comp3/Kurs";
 import Cards from "./comp4/Cards";
 import Akis from "./comp4/Akis";
 import Bilgiler from "./comp5/Bilgiler";
+import Bitis from "./comp6/Bitis";
 
 
 
@@ -19,6 +20,7 @@ import Bilgiler from "./comp5/Bilgiler";
 function App() {
   return (
   <div className="App"> 
+
  {/*<Aders/>
    <Bders/>
    <Cders/> 
@@ -40,9 +42,10 @@ function App() {
           return <Cards key={index} ad={isim} img={img} yas={yas} kurs={kurs} />;
         })}
         </div>
-       <Akis/>*/}
-      <Bilgiler/>
-
+       <Akis/>
+      <Bilgiler/>*/}
+      
+        <Bitis/>
 
 
 
